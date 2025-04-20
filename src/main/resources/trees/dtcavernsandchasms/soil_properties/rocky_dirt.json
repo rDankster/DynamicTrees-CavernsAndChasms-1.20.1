@@ -1,0 +1,4 @@
+{
+    "primitive_soil": "caverns_and_chasms:rocky_dirt",
+    "acceptable_soils": [ "dirt_like"]
+}
