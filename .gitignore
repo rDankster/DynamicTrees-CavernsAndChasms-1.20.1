@@ -1,6 +1,8 @@
-/*.gradle
+/.gradle
 /.vscode
 /bin
 /build
 /run
 /run-server
+/buildSrc/.gradle
+/buildSrc/build
