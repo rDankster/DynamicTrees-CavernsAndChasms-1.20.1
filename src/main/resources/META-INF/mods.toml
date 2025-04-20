@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion = "[47,)"
+license="MIT"
+
+[[mods]]
+modId="dtcavernsandchasms"
+version="${file.jarVersion}"
+displayName="Dynamic Trees for Caverns and Chasms"
+
+updateJSONURL=""
+displayURL=""
+
+authors="rdankster" #optional
+description='''
+Compatibility Mod between Dynamic trees and Caverns and Chasms
+'''
+
+[[dependencies.dtcavernsandchasms]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtcavernsandchasms]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dtcavernsandchasms]]
+    modId="dynamictrees"
+    mandatory=true
+    versionRange="[1.3.0-BETA6,)"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.dtcavernsandchasms]]
+    modId="caverns_and_chasms"
+    mandatory=true
+    versionRange="[2.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

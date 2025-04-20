@@ -1,0 +1,7 @@
+{
+  "loader": "dynamictrees:branch",
+  "textures": {
+    "bark": "caverns_and_chasms:block/azalea_log",
+    "rings": "caverns_and_chasms:block/azalea_log_top"
+  }
+}
